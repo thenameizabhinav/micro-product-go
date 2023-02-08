@@ -3,7 +3,7 @@ pipeline {
     agent any
 
     tools {
-        go 'go1.14'
+        go 'go'
     }
     environment {
         GO114MODULE = 'on'
